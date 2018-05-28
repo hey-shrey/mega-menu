@@ -1,0 +1,94 @@
+* {
+    font-family: 'Inconsolata', monospace;
+    color: #d8d8d6;
+}
+
+body {
+    background-color: #21232d !important;
+    margin: 0 auto !important;
+}
+
+.row-base div {
+    padding: 20px 10px;
+    border: 1px solid;
+    font-size: 1em;
+}
+
+.masthead {
+    margin: 40px 0;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+}
+
+.masthead h1 a {
+    font-size: 51.957px;
+    background-color: #f92672;
+    color: #21232d;
+    padding: 5px 15px;
+    font-weight: 700;
+}
+
+.navigante {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.links--nav {
+    color: #ccc;
+}
+
+.links:hover {
+    color: #ccc;
+    opacity: 0.7;
+}
+
+.lists {
+    list-style: none;
+}
+
+.navigante__menu {
+    height: 45px;
+    margin-right: 12px;
+}
+
+.navigante__menu .navigante__mega__menu {
+    display: none;
+}
+
+.navigante__menu:hover .navigante__mega__menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 36px;
+    padding: 20px;
+    min-height: 180px;
+    text-align: left;
+    border: 1px solid #fff;  
+    background-color: #314451;  
+}
+
+.navigante__separator:before {
+    content: "·";
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .navigante__separator:before {
+        display: none;
+    }
+}
+
+.lists--mega {
+    
+}
+
