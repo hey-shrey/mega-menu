@@ -84,70 +84,13 @@ body {
 .smb__nav-pill:hover .smb__nav-content {
     display: block;
     position: absolute;
-    width: 340px;
+    max-width: 100%;
     height: 138px;
     border: 1px solid purple;
     top: 0;
-    left: 72px;
+    left: 50%;
 }
 
 .smb__nav-content {
     display: none;
 }
-
-// .links {
-//     text-decoration: none;
-// }
-
-// .links--nav {
-//     color: #ccc;
-// }
-
-// .links:hover {
-//     color: #ccc;
-//     opacity: 0.7;
-// }
-
-// .lists {
-//     list-style: none;
-// }
-
-// .navigation__menu {
-//     height: 45px;
-//     margin-right: 12px;
-// }
-
-// .navigation__menu .navigation__mega__menu {
-//     display: none;
-// }
-
-// .navigation__menu:hover .navigation__mega__menu {
-//     display: flex;
-//     justify-content: space-evenly;
-//     align-items: flex-start;
-//     position: absolute;
-//     left: 20%;
-//     right: 20%;
-//     top: 36px;
-//     padding: 20px;
-//     min-height: 180px;
-//     text-align: left;
-//     border: 1px solid #fff;  
-//     background-color: #314451;  
-// }
-
-// .navigation__separator:before {
-//     content: "·";
-//     display: inline-block;
-// }
-
-// @media screen and (max-width: 768px) {
-//     .navigation__separator:before {
-//         display: none;
-//     }
-// }
-
-// .lists--mega {
-    
-// }
-
