@@ -69,6 +69,24 @@ body {
 
 .sub-menu-bar {
     display: none;
+    height: calc(100vh - 162px);
+}
+
+
+.sub-menu-bar--bg1 {
+    background: url(./assets/images/fabian-grohs-597395-unsplash.jpg) no-repeat right;
+}
+.sub-menu-bar--bg2 {
+    background: url(./assets/images/lee-campbell-106610-unsplash.jpg) no-repeat right;
+}
+.sub-menu-bar--bg3 {
+    background: url(./assets/images/jesus-kiteque-224069-unsplash.jpg) no-repeat right;
+}
+
+.sub-menu-bar--bg1,
+.sub-menu-bar--bg2,
+.sub-menu-bar--bg3 {
+    background-size: 500px;
 }
 
 .smb__nav {
