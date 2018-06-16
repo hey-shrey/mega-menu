@@ -30,7 +30,6 @@ body {
 
 .navigation {
     font-size: 18px;
-    //position: relative;
 }
 
 .main-menu-bar {
@@ -71,50 +70,6 @@ body {
     display: none;
     height: calc(100vh - 162px);
 }
-
-
-.smb__cta-banner--bg1 {
-    background: url(./assets/images/fabian-grohs-597395-unsplash.jpg) no-repeat right;
-}
-.smb__cta-banner--bg2 {
-    background: url(./assets/images/lee-campbell-106610-unsplash.jpg) no-repeat right;
-}
-.smb__cta-banner--bg3 {
-    background: url(./assets/images/jesus-kiteque-224069-unsplash.jpg) no-repeat right;
-}
-
-.smb__cta-banner {
-    background-size: cover;
-    height: 100%;
-    width: 50%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 20px;
-}
-
-.scb__title {
-    color: #fff;
-    font-size: 54px;
-}
-
-.scb__sub-title {
-    color: #ccc;
-    font-size: 24px;
-}
-
-.scb__cta {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 40px;
-    border: 1px solid #ccc;
-    text-transform: capitalize;
-    color: #f92672;
-    background: transparent;
-    padding: 30px;
-}
-
 
 .smb__nav {
     padding: 0;
@@ -161,4 +116,46 @@ body {
 
 .smb__nav-content--bg5 {
     background: url(./assets/images/helloquence-61189-unsplash.jpg) no-repeat right;
+}
+
+.smb__cta-banner {
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+}
+
+.smb__cta-banner--bg1 {
+    background: url(./assets/images/fabian-grohs-597395-unsplash.jpg) no-repeat right;
+}
+.smb__cta-banner--bg2 {
+    background: url(./assets/images/lee-campbell-106610-unsplash.jpg) no-repeat right;
+}
+.smb__cta-banner--bg3 {
+    background: url(./assets/images/jesus-kiteque-224069-unsplash.jpg) no-repeat right;
+}
+
+.scb__title {
+    color: #fff;
+    font-size: 54px;
+}
+
+.scb__sub-title {
+    color: #ccc;
+    font-size: 24px;
+}
+
+.scb__cta {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 40px;
+    border: 1px solid #ccc;
+    text-transform: capitalize;
+    color: #f92672;
+    background: transparent;
+    padding: 30px;
 }
