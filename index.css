@@ -128,13 +128,13 @@ body {
 
 .smb__nav-pill:hover .smb__nav-content {
     display: block;
-    color: #030303;
+    color: goldenrod;
     z-index: 1;
     position: absolute;
     border: 1px solid purple;
     top: -20px;
     right: -20px;
-    bottom: -330px;
+    bottom: -289px;
     left: 50%;
     background-size: cover;
 }
