@@ -73,21 +73,48 @@ body {
 }
 
 
-.sub-menu-bar--bg1 {
+.smb__cta-banner--bg1 {
     background: url(./assets/images/fabian-grohs-597395-unsplash.jpg) no-repeat right;
 }
-.sub-menu-bar--bg2 {
+.smb__cta-banner--bg2 {
     background: url(./assets/images/lee-campbell-106610-unsplash.jpg) no-repeat right;
 }
-.sub-menu-bar--bg3 {
+.smb__cta-banner--bg3 {
     background: url(./assets/images/jesus-kiteque-224069-unsplash.jpg) no-repeat right;
 }
 
-.sub-menu-bar--bg1,
-.sub-menu-bar--bg2,
-.sub-menu-bar--bg3 {
-    background-size: 500px;
+.smb__cta-banner {
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
 }
+
+.scb__title {
+    color: #fff;
+    font-size: 54px;
+}
+
+.scb__sub-title {
+    color: #ccc;
+    font-size: 24px;
+}
+
+.scb__cta {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 40px;
+    border: 1px solid #ccc;
+    text-transform: capitalize;
+    color: #f92672;
+    background: transparent;
+    padding: 30px;
+}
+
 
 .smb__nav {
     padding: 0;
@@ -101,14 +128,37 @@ body {
 
 .smb__nav-pill:hover .smb__nav-content {
     display: block;
+    color: #030303;
+    z-index: 1;
     position: absolute;
-    max-width: 100%;
-    height: 138px;
     border: 1px solid purple;
-    top: 0;
+    top: -20px;
+    right: -20px;
+    bottom: -330px;
     left: 50%;
+    background-size: cover;
 }
 
 .smb__nav-content {
     display: none;
+}
+
+.smb__nav-content--bg1 {
+    background: url(./assets/images/tim-gouw-68319-unsplash.jpg) no-repeat right;
+}
+
+.smb__nav-content--bg2 {
+    background: url(./assets/images/zany-jadraque-571205-unsplash.jpg) no-repeat right;
+}   
+
+.smb__nav-content--bg3 {
+    background: url(./assets/images/lee-campbell-106610-unsplash.jpg) no-repeat right;
+}
+
+.smb__nav-content--bg4 {
+    background: url(./assets/images/emile-perron-190221-unsplash.jpg) no-repeat right;
+}
+
+.smb__nav-content--bg5 {
+    background: url(./assets/images/helloquence-61189-unsplash.jpg) no-repeat right;
 }
