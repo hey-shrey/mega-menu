@@ -119,23 +119,25 @@ body {
 }
 
 .smb__cta-banner {
-    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
     height: 100%;
     width: 50%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 20px;
 }
 
 .smb__cta-banner--bg1 {
     background: url(./assets/images/fabian-grohs-597395-unsplash.jpg) no-repeat right;
+    background-size: cover;
 }
 .smb__cta-banner--bg2 {
     background: url(./assets/images/lee-campbell-106610-unsplash.jpg) no-repeat right;
+    background-size: cover;
 }
 .smb__cta-banner--bg3 {
     background: url(./assets/images/jesus-kiteque-224069-unsplash.jpg) no-repeat right;
+    background-size: cover;
 }
 
 .scb__title {
@@ -154,8 +156,9 @@ body {
     transform: translate(-50%);
     bottom: 40px;
     border: 1px solid #ccc;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: #f92672;
+    font-weight: bold;
     background: transparent;
     padding: 30px;
 }
